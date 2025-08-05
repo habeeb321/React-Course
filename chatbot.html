@@ -78,8 +78,9 @@
                     }
                 ]
             );
-            const chatMessages = array[0];
-            const setChatMessages = array[1];
+            // const chatMessages = array[0];
+            // const setChatMessages = array[1];
+            const [chatMessages, setChatMessages] = array;
 
             function sendMessage() {
                 setChatMessages(
